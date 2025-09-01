@@ -33,25 +33,17 @@
     <cloudhub2Deployment>
       <uri>https://anypoint.mulesoft.com</uri>
       <provider>MC</provider>
-      <environment>${environment}</environment>
-      <target>${targetName}</target>
-      <muleVersion>${muleVersion}</muleVersion>
-      <username>${user}</username>
-      <password>${pass}</password>
-      <applicationName>${appName}</applicationName>
+      <environment>Sandbox</environment>
+      <target>Cloudhub-US-East-2</target>
+      <muleVersion>4.8.1</muleVersion>
+      <username>itsramr64</username>
+      <password>itsramr64</password>
+      <applicationName>cloudhub-app</applicationName>
       <replicas>1</replicas>
-      <vCores>1</vCores>
-      <deploymentSettings>
-        <http>
-          <inbound>
-            <publicUrl>${publicURL}</publicUrl>
-            <forwardSslSession>true</forwardSslSession>
-            <lastMileSecurity>true</lastMileSecurity>
-          </inbound>
-        </http>
-      </deploymentSettings>
+      <vCores>0.1</vCores>
     </cloudhub2Deployment>
-  </configuration>			
+  </configuration>
+			
 			</plugin>
 		</plugins>
 	</build>
