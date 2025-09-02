@@ -26,7 +26,7 @@
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>4.3.0</version>
-				<extensions>skip</extensions>
+				<extensions>true</extensions>
 				<configuration>
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
